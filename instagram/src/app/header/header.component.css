@@ -1,0 +1,44 @@
+.header-container{
+    height: 50px;
+    width: 100%;
+    /* background: cornflowerblue; */
+    
+}
+.header{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+    
+}
+.header div{
+    height: 100%;
+    width: 33%;
+}
+.logo{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.header-nav{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+.header-nav i{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 12%;
+}
